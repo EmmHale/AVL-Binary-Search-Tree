@@ -193,6 +193,38 @@ int main()
 
 	delete avl_tree2;
 
+	AVLTree<int> rTree1;
+
+	rTree1.AddNode(1);
+	rTree1.AddNode(2);
+	rTree1.AddNode(5);
+	rTree1.AddNode(4);
+	rTree1.AddNode(3);
+
+	rTree1.RemoveNode(2);
+
+	rTree1.AddNode(2);
+	rTree1.AddNode(7);
+	rTree1.AddNode(8);
+	rTree1.AddNode(9);
+	rTree1.AddNode(10);
+	rTree1.RemoveNode(3);
+
+	AVLTree<int> rTree2;
+
+	rTree2.AddNode(201);
+	rTree2.AddNode(202);
+	rTree2.AddNode(203);
+	rTree2.AddNode(204);
+	rTree2.AddNode(205);
+	rTree2.AddNode(206);
+	rTree2.AddNode(207);
+	rTree2.AddNode(208);
+	rTree2.AddNode(209);
+	rTree2.AddNode(210);
+
+	rTree2.RemoveNode(203);
+
 	return 0;
 }
 

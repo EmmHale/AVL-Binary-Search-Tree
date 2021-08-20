@@ -62,7 +62,7 @@ public:
 	T m_data;
 	TreeNode<T>* m_left_node;
 	TreeNode<T>* m_right_node;
-	int m_weight;
+	int m_weight; //LLH, LH, E, RH, RRH
 	~TreeNode();
 private:
 	TreeNode();
